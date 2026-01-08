@@ -1,4 +1,4 @@
-<h1>📦 Amazon Clone Project</h1>
+<h1>📦 Amazon Clone project:</h1> 
 <hr>
 <h2>📝 Project Description </h2
 
@@ -33,3 +33,12 @@ The project replicates the UI design of Amazon’s homepage, focusing on layout,
 <li>
 CSS Grid</li>
 </ul>
+
+<h2>📸 Screenshots</h2>
+<h3>Amazon Clone Dashboard:</h3>
+
+<img src="C:\Users\inspi\OneDrive\Pictures\Screenshots\Screenshot 2026-01-08 140314.png" >
+<img width="1909" height="919" alt="Screenshot 2026-01-08 140314" src="https://github.com/user-attachments/assets/0a4e3099-50d5-4bce-b7bd-0bf1079063f5" /><h1>
+
+
+
