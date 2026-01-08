@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+
+}
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.logo {
+    background-image: url('amazon_logo.png');
+    background-size: cover;
+    height: 50px;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+/** box2 **/
+.add-first {
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 15px;
+
+}
+
+.add-second {
+    color: #ffffff;
+    margin-left: 3px;
+
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/** Nav-search **/
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 600px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.nav-search:hover {
+    border: 2px solid rgb(223, 106, 11);
+}
+
+.search-sel {
+    background-color: #f3f3f3;
+    width: 55px;
+    height: 40px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(197, 128, 18);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+
+}
+
+/** Sign in **/
+
+.first-sign {
+    color: #cccccc;
+    font-size: 0.8rem;
+    font-weight: 600;
+
+}
+
+.second-sign {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* returns & orders */
+.first-ro {
+    color: #cccccc;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.second-ro {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+/* cart */
+.nav-cart {
+    display: flex;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.icon {
+    height: 30px;
+    font-size: 2rem;
+}
+
+.text {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+/* Panel */
+.panel {
+    height: 35px;
+    background-color: #171e38;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.all {
+    display: flex;
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.panel-icon {
+    height: 20px;
+    font-size: 3rem;
+
+}
+
+.text1 {
+    font-size: 0.7rem;
+    font-weight: 600;
+
+}
+
+/* Content */
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    justify-content: space-between;
+    font-weight: 600;
+    width: 35%;
+    margin-left: 20px;
+}
+.deal {
+    font-size: 0.8rem;
+    font-weight: 600;
+    margin-left: 700px;
+}
+
+/* Hero_section */
+.hero-section {
+    background-image: url('hero_image.jpg');
+    background-size: cover;
+    height: 330px;
+    display: flex; 
+    position: relative;
+   
+   
+}
+.hero-mas{
+    width: 100%;
+}
+.hero-text{
+    color: black;
+    background-color: #cccccc;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px;
+    position: absolute;
+    top: 250px;
+    width: 90%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 55px; 
+    
+}
+
+.hero-text a{
+    color: #007187;
+    text-decoration: none;
+}
+
+/* Shop section */
+.shop-nav{
+    background-color: #1b2139;
+    height: 40px;
+    color: white;
+    font-size: 1.5 rem;
+    font-weight: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    background-color:  #234f7b;
+    display: flex;
+    height: 400px;
+    align-items: center;
+}
+
+.box{
+    border:  2px solid black;
+    height: 330px;
+    width: 23%;
+    background-color: rgb(243, 243, 244);
+    align-items: center;
+    justify-content: center;
+}
+
+.shop-text{
+    font-size: 1.2rem;
+    font-weight: 1000;
+    color: rgb(15, 15, 15);
+    text-align: center;
+    padding:10px;
+
+}
+ .shop-img{
+    height: 210px; 
+    padding: 10px;
+    width: 280px;
+    margin-left: 20px;
+}
+
+.shop-see a{
+    color: #2162A1;
+    text-decoration: none;
+    font-size: 0.8rem;
+     margin-left: 28px;
+     font-weight: 1000;
+}
