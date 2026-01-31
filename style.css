@@ -189,7 +189,7 @@
     height: 330px;
     display: flex; 
     position: relative;
-   
+    
    
 }
 .hero-mas{
@@ -232,7 +232,6 @@
 .shop-section{
     display: flex;
     justify-content: space-evenly;
-    margin-bottom: 100px;
     background-color:  #234f7b;
     display: flex;
     height: 400px;
@@ -269,4 +268,63 @@
     font-size: 0.8rem;
      margin-left: 28px;
      font-weight: 1000;
+}
+.panel{
+    background-color: #091f34;
+    width: 100%;
+    height: 100px;
+}
+.panel-text{
+    font-size:  15px;
+    font-weight: 700;
+    padding-left: 10px;
+    color: white;  
+    letter-spacing: 3px; 
+}
+
+.panel-text p{
+    padding: 10px;
+    font-size: 1.5rem;
+}
+.panel-text h2{
+    margin-left: 900px;
+    padding: 10px;
+    font-size: 1.3rem;
+}
+
+.btm{
+
+}
+
+.sign-in{
+   background-color: rgb(164, 159, 152);
+  
+   height: 130px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.sign-in button{
+    background-color: #091f34;
+    color: white;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 5px;
+}
+.sign-in p{
+    font-size: 0.8rem;
+    margin: 5px;
+}
+
+.link{
+    text-decoration: none;
+}
+.back{
+    background-color: #171e38;
+    height: 25px;
+  
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
