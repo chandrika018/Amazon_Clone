@@ -121,7 +121,7 @@
 /* cart */
 .nav-cart {
     display: flex;
-    height: 45px;
+    height: 20px;
     align-items: center;
     justify-content: center;
 
@@ -140,7 +140,7 @@
 
 /* Panel */
 .panel {
-    height: 35px;
+    height: 40px;
     background-color: #171e38;
     color: white;
     display: flex;
@@ -292,9 +292,6 @@
     font-size: 1.3rem;
 }
 
-.btm{
-
-}
 
 .sign-in{
    background-color: rgb(164, 159, 152);
@@ -320,11 +317,62 @@
 .link{
     text-decoration: none;
 }
-.back{
-    background-color: #171e38;
-    height: 25px;
-  
-    color: white;
-    text-align: center;
-    padding: 10px;
+
+.footer {
+  background-color: #0a2341;
+  color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+.footer-top {
+  background-color: #1b2c42;
+  text-align: center;
+  padding: 15px;
+}
+
+.footer-top a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-top a:hover {
+  text-decoration: underline;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 40px 20px;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  min-width: 200px;
+  margin-bottom: 20px;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-column a {
+  display: block;
+  color: #dddddd;
+  font-size: 14px;
+  text-decoration: none;
+  margin-bottom: 8px;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  background-color: #1c2229;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  color: #cccccc;
 }
