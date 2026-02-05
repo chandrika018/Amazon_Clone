@@ -7,7 +7,7 @@
 </head>
 <style>
     body{
-        background-color: black;
+        background-color: rgb(224, 223, 230);
         color: white;    
         display: flex;
         justify-content: center;
@@ -15,9 +15,10 @@
     }
     .card{
         background-color: rgb(7, 7, 55);
-        margin: 200px;
+        margin: 150px;
         width: 500px;
         height: 300px;
+        padding: 50px;
         border-radius: 20px;
     }
     .card h1{
@@ -25,26 +26,31 @@
         padding-top: 20px;
     }
     .input h3{
-        text-align: center;
-        color: rgb(142, 142, 179);
+        color: rgb(222, 222, 231);
+        font-size: 1.5rem;
+        margin-left: 20px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
     }
     .input input{
-        width: 80%;
+        width: 90%;
         height: 30px;
         border-radius: 5px;
         border: none;
-        margin-top: 5px;
-        margin-left: 50px;
+        padding: 5px;
+        margin-left: 20px;
     }
     .btn{
         text-align: center;
-        margin-top: 20px;
-        background-color: navy;
+        background-color: rgb(11, 11, 113);
         color: white;
         border: none;
         padding: 10px 20px;
-        border-radius: 5px;
-        
+        border-radius: 8px;
+        cursor: pointer;
+        margin: 30px 20px 0px 20px;
     }
 </style>
 <body>
@@ -52,8 +58,8 @@
         <h1>Sign in or create account</h1>
         <form action="">
             <div class="input">
-                <h3>Enter mobile number or email</h3>
-                <input type="email" placeholder="Enter your emails">
+                <h3>Enter Email or Mobile Number</h3>
+                <input type="email" placeholder="Enter your Email or MobileNo.">
             </div>
             <button class="btn">Sign in</button>
         </form>
